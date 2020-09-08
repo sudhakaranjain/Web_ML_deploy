@@ -51,7 +51,7 @@ def predict():
     class_name = classes[output[0]]
     # output = round(prediction[0], 2)
 
-    return render_template('index.html', prediction_text='Employee Salary should be $ {}'.format(class_name))
+    return render_template('index.html', prediction_text='The image is a {}'.format(class_name))
 
 @app.route('/predict_api',methods=['POST'])
 def predict_api():
