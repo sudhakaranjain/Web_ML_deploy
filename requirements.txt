@@ -15,7 +15,7 @@ Keras-Preprocessing==1.1.2
 Markdown==3.2.2
 MarkupSafe==1.1.1
 numpy==1.19.1
-opencv-python==4.4.0.42
+opencv-python-headless==4.4.0.42
 protobuf==3.13.0
 six==1.15.0
 tensorboard==1.14.0
