@@ -31,7 +31,7 @@ def predict():
     # int_features = [int(x) for x in request.form.values()]
     image = request.files['image']
     filename = secure_filename(image.filename)
-    image.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+    # image.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 
     image.stream.seek(0) # seek to the beginning of file
     image_byte = image.read()
